@@ -23,7 +23,7 @@ xkb_symbols "kotoistus" {
 
     name[Group1]="Finnish";
 
-    key <TLDE> { [  section,         asciicircum,      dead_stroke,           NoSymbol              ] };
+    key <TLDE> { [  tilde,           asciicircum,      dead_stroke,           NoSymbol              ] };
     key <AE01> { [  1,               exclam,           NoSymbol,              exclamdown            ] };
     key <AE02> { [  2,               quotedbl,         at,                    rightdoublequotemark  ] };
     key <AE03> { [  3,               numbersign,       sterling,              guillemotright        ] };
@@ -102,7 +102,7 @@ xkb_symbols "fi" {
 
     // Classic Finnish keyboard layout with dead keys
 
-    key <TLDE> { [  section,         asciicircum,      onequarter,            threequarters         ] };
+    key <TLDE> { [  tilde,           asciicircum,      onequarter,            threequarters         ] };
     key <AE01> { [  1,               exclam,           exclamdown,            onesuperior           ] };
     key <AE02> { [  2,               quotedbl,         at,                    twosuperior           ] };
     key <AE03> { [  3,               numbersign,       sterling,              threesuperior         ] };
